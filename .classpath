@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/commons-configuration2-2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/commons-text-1.8.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/google-api-client-1.29.0.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/lombok-1.18.4.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/jackson-xml-databind-0.6.2.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/jackson-databind-2.10.1.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/jackson-core-2.10.1.jar"/>
+	<classpathentry kind="lib" path="/Users/marrajen/Documents/SPARK_JARS/jackson-annotations-2.10.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

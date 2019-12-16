@@ -1,0 +1,14 @@
+{
+	"LombokReadJson": {
+		"compartmentId": "qa-auto-spark-config_changes",
+		"className": "org.apache.spark.examples.JavaWordCount",
+		"lang": "PYTHON",
+		"type": "BATCH"
+	},
+	"LombokWriteJson": {
+		"compartmentId": "qa-auto-spark-config_changes",
+		"className": "org.apache.spark.examples.JavaWordCount",
+		"lang": "JAVA",
+		"type": "BATCH"
+	}
+}
