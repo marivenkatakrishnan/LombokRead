@@ -33,25 +33,19 @@ public class LombokRead {
 				String keyStr = (String) key;
 
 				if (searchKey.equalsIgnoreCase(keyStr)) {
+					Application application = Application.builder()
+							.displayName(configs.getString(keyStr + ".displayName"))
+							.className(configs.getString(keyStr + ".className")).type("BATCH")
+							.lang(configs.getString(keyStr + ".lang"))
+							.type(configs.getString(keyStr + ".type"))
+							//.applicationConfiguration(configs.getList(keyStr + ".configuration")).configuration(configList)
+							.build();
 
-					JSONObject testData = (JSONObject) jsonObject.get(keyStr);
-
-					if (searchList[0] != "TestCreateApplicationWithSameOpcRetryTokenButDiffCompartmentId") {
-
-						Application application = Application.builder()
-								.displayName(configs.getString(keyStr + ".displayName"))
-								.className(configs.getString(keyStr + ".className")).type("BATCH")
-								.lang(configs.getString(keyStr + ".lang"))
-								.type(configs.getString(keyStr + ".type"))
-								//.applicationConfiguration(configs.getList(keyStr + ".configuration")).configuration(configList)
-								.build();
-
-						applications.add(application);
-						System.out.println(application);
-					}
+					applications.add(application);
+					System.out.println(application);
 				}
 			}
 		}
 		return applications;
 	}	
- }
+}
